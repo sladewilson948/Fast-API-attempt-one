@@ -28,8 +28,8 @@ def generate_unique_id():
     return f"{random.randint(000000,999999):06}"
 
 def generate_name():
-    fname = ["Aman", "Archita", "Vineet", "Mukesh", "Sharda", "Pujitha"]
-    lname = ["Dubey", "Singh", "Mc Adams", "Savage", "Gedipudi"]
+    fname = ["Aman", "Christian", "Elon", "Jonathan", "21", "John"]
+    lname = ["Dubey", "Bale", "Mc Adams", "Savage", "Singh"]
     name = random.choice(fname)+ " "+ random.choice(lname)
     return name
 
